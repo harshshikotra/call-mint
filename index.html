@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Call Mint – Free Recharges, Smarter Calls</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles for refined look */
+    body {
+      font-family: 'Inter', sans-serif; /* A more modern, clean sans-serif font */
+    }
+    .text-indigo-700-custom { /* Slightly adjusted indigo for a richer feel */
+      color: #312E81;
+    }
+    .bg-gradient-to-br-custom { /* Deeper, richer gradient */
+      background-image: linear-gradient(to bottom right, #4F46E5, #6366F1); /* From indigo-600 to indigo-500 */
+    }
+    .shadow-lg-custom { /* More prominent, softer shadow */
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    }
+    .rounded-xl-custom { /* Slightly more pronounced rounded corners for elements */
+      border-radius: 0.75rem; /* Equivalent to Tailwind's rounded-xl */
+    }
+    .text-gray-900-custom { /* Darker, richer text color for contrast */
+      color: #1F2937;
+    }
+    .text-gray-600-custom { /* Softer secondary text */
+      color: #4B5563;
+    }
+    .bg-gray-50-custom { /* Lighter, cleaner background */
+      background-color: #F9FAFB;
+    }
+    .border-white-custom { /* Sharper white border */
+      border-color: #F8FAFC;
+    }
+    .bg-white-custom { /* Pure white for clean sections */
+      background-color: #FFFFFF;
+    }
+
+    /* Adjust spacing for header to account for fixed position */
+    section:first-of-type {
+      padding-top: 8rem; /* Enough space for fixed header */
+    }
+  </style>
+</head>
+<body class="bg-white-custom text-gray-900-custom font-sans">
+  <header class="fixed top-0 left-0 w-full flex items-center justify-between px-8 py-5 z-20 bg-white-custom shadow-lg-custom">
+    <a href="index.html" class="text-indigo-700-custom text-3xl font-extrabold tracking-tight">Call Mint</a>
+    <nav class="hidden md:flex space-x-8">
+      <a href="#features" class="text-gray-600-custom hover:text-indigo-700-custom font-semibold transition duration-200 ease-in-out">Features</a>
+      <a href="#how-it-works" class="text-gray-600-custom hover:text-indigo-700-custom font-semibold transition duration-200 ease-in-out">How It Works</a>
+      <a href="#why" class="text-gray-600-custom hover:text-indigo-700-custom font-semibold transition duration-200 ease-in-out">Why Call Mint</a>
+      <a href="founder.html" class="text-gray-600-custom hover:text-indigo-700-custom font-semibold transition duration-200 ease-in-out">Founder's Story</a>
+      <a href="contact.html" class="text-indigo-700-custom hover:text-indigo-800 font-semibold px-4 py-2 border border-indigo-700-custom rounded-lg transition duration-200 ease-in-out">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="bg-gradient-to-br-custom text-white py-32 px-6 text-center">
+    <h2 class="text-6xl md:text-7xl font-extrabold leading-tight mb-8 drop-shadow-md">Free Recharges.<br> Smarter Calls. One App.</h2>
+    <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto opacity-90">
+      Empowering 120 crore Indian users to connect, chat, and earn — without switching telecom providers.
+    </p>
+    <div class="flex flex-col sm:flex-row justify-center gap-6">
+      <a href="#how-it-works" class="border-2 border-white-custom text-white py-4 px-8 rounded-xl-custom hover:bg-white-custom hover:text-indigo-700-custom font-bold transition duration-300 ease-in-out shadow-lg-custom">Watch How It Works</a>
+    </div>
+  </section>
+
+  <section class="py-24 px-6 bg-gray-50-custom text-center" id="features">
+    <h2 class="text-4xl font-bold mb-16 text-gray-900-custom">Powerful Features, One Seamless App</h2>
+    <div class="relative max-w-5xl mx-auto">
+      <div id="featuresScroll" class="overflow-hidden relative w-full h-full rounded-xl-custom shadow-lg-custom">
+        <style>
+          #featureSlider {
+            width: 100%;
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+          }
+          #featureSlider > div {
+            flex-shrink: 0;
+            width: 100%;
+            padding: 2.5rem; /* More generous padding */
+          }
+        </style>
+        <div class="flex transition-transform duration-700 ease-in-out w-full" id="featureSlider">
+          <div class="bg-white-custom rounded-xl-custom w-full min-w-full text-left cursor-pointer transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+            <div class="text-6xl mb-4">📞</div>
+            <h3 class="text-2xl font-bold mb-2 text-indigo-700-custom">Free Recharges with Every Call</h3>
+            <p class="text-gray-600-custom text-base leading-relaxed">Earn virtual coins for every call or message you make — easily redeem them for mobile recharges directly within the app.</p>
+          </div>
+          <div class="bg-white-custom rounded-xl-custom w-full min-w-full text-left cursor-pointer transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+            <div class="text-6xl mb-4">🎵</div>
+            <h3 class="text-2xl font-bold mb-2 text-indigo-700-custom">Ad Jingles Instead of Ringing Tones</h3>
+            <p class="text-gray-600-custom text-base leading-relaxed">Listen to engaging brand jingles during the call connection process and earn rewards instantly with every valid interaction.</p>
+          </div>
+          <div class="bg-white-custom rounded-xl-custom w-full min-w-full text-left cursor-pointer transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+            <div class="text-6xl mb-4">🌐</div>
+            <h3 class="text-2xl font-bold mb-2 text-indigo-700-custom">Real-Time Voice Translation</h3>
+            <p class="text-gray-600-custom text-base leading-relaxed">Experience seamless multilingual communication with AI-powered, real-time voice translation during your calls.</p>
+          </div>
+          <div class="bg-white-custom rounded-xl-custom w-full min-w-full text-left cursor-pointer transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+            <div class="text-6xl mb-4">🆔</div>
+            <h3 class="text-2xl font-bold mb-2 text-indigo-700-custom">Universal CNAP Caller ID</h3>
+            <p class="text-gray-600-custom text-base leading-relaxed">Benefit from cross-network caller name display, fully complying with TRAI’s CNAP initiative for transparent identification.</p>
+          </div>
+          <div class="bg-white-custom rounded-xl-custom w-full min-w-full text-left cursor-pointer transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+            <div class="text-6xl mb-4">🛡️</div>
+            <h3 class="text-2xl font-bold mb-2 text-indigo-700-custom">Fraud & Scam Protection</h3>
+            <p class="text-gray-600-custom text-base leading-relaxed">Stay safe with our AI-based caller verification and real-time spam detection, protecting you from unwanted and fraudulent calls.</p>
+          </div>
+          <div class="bg-white-custom rounded-xl-custom w-full min-w-full text-left cursor-pointer transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+            <div class="text-6xl mb-4">🔋</div>
+            <h3 class="text-2xl font-bold mb-2 text-indigo-700-custom">Battery Optimization</h3>
+            <p class="text-gray-600-custom text-base leading-relaxed">Our smart connectivity features are designed to save your phone's battery, especially in low-signal areas, keeping you connected longer.</p>
+          </div>
+          <div class="bg-white-custom rounded-xl-custom w-full min-w-full text-left cursor-pointer transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+            <div class="text-6xl mb-4">📲</div>
+            <h3 class="text-2xl font-bold mb-2 text-indigo-700-custom">Dual Call Options</h3>
+            <p class="text-gray-600-custom text-base leading-relaxed">Enjoy flexibility with support for both normal telecom calls and high-quality VoIP audio/video calls within a single app.</p>
+          </div>
+          <div class="bg-white-custom rounded-xl-custom w-full min-w-full text-left cursor-pointer transition-all duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+            <div class="text-6xl mb-4">🔍</div>
+            <h3 class="text-2xl font-bold mb-2 text-indigo-700-custom">Number Search & Chat</h3>
+            <p class="text-gray-600-custom text-base leading-relaxed">Quickly find and chat with numbers instantly without the need to save them to your contact list first.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 px-6 bg-white-custom text-center" id="why">
+    <h2 class="text-4xl font-bold mb-16 text-gray-900-custom">Why Call Mint is the Future of Mobile Communication</h2>
+    <p class="text-gray-600-custom mb-12 max-w-4xl mx-auto text-xl leading-relaxed">
+      Call Mint isn't just another calling app — it’s a **Telecom 2.0 platform** combining **reward economics, AI-driven tools, and TRAI-aligned innovations** for the next generation of mobile users in India. Discover what makes us truly unique:
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto text-left">
+      <div class="bg-gray-50-custom p-8 rounded-xl-custom shadow-lg-custom transition duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+        <h3 class="text-2xl font-bold mb-4 text-indigo-700-custom">Ad-Based Recharge Ecosystem (Free for All Users)</h3>
+        <p class="text-gray-600-custom text-base leading-relaxed">
+          During normal telecom and VoIP (voice/video) call connections, Call Mint replaces traditional ringing tones with **audio jingles (brand ads)**. Users earn **virtual coins** credited to their in-app wallet for each engagement. These coins can be redeemed for mobile recharges, ensuring **free telecom services for life** — a first-of-its-kind monetization model in India.
+        </p>
+      </div>
+
+      <div class="bg-gray-50-custom p-8 rounded-xl-custom shadow-lg-custom transition duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+        <h3 class="text-2xl font-bold mb-4 text-indigo-700-custom">AI-Powered Real-Time Voice Translation</h3>
+        <p class="text-gray-600-custom text-base leading-relaxed">
+          Call Mint bridges India’s linguistic diversity with **real-time, voice-to-voice call translation**, allowing two users speaking different languages to communicate fluently — removing a major barrier in everyday communication.
+        </p>
+      </div>
+
+      <div class="bg-gray-50-custom p-8 rounded-xl-custom shadow-lg-custom transition duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+        <h3 class="text-2xl font-bold mb-4 text-indigo-700-custom">Cross-Network CNAP (Caller Name Presentation)</h3>
+        <p class="text-gray-600-custom text-base leading-relaxed">
+          While TRAI has mandated CNAP for Indian telcos, current solutions are limited to the same network. Call Mint will pioneer **cross-network CNAP**, showing verified caller names across all networks — supporting the spirit of TRAI’s directive and greatly reducing spam and anonymous call issues.
+        </p>
+      </div>
+
+      <div class="bg-gray-50-custom p-8 rounded-xl-custom shadow-lg-custom transition duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+        <h3 class="text-2xl font-bold mb-4 text-indigo-700-custom">Fraud Prevention & Scam Detection</h3>
+        <p class="text-gray-600-custom text-base leading-relaxed">
+          Our AI engine will **detect, warn, and block spam or scam numbers in real-time**. Voice authentication adds a second layer of verification, enhancing user trust and safety on the platform.
+        </p>
+      </div>
+
+      <div class="bg-gray-50-custom p-8 rounded-xl-custom shadow-lg-custom transition duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+        <h3 class="text-2xl font-bold mb-4 text-indigo-700-custom">Battery Optimization for Weak Signal Areas</h3>
+        <p class="text-gray-600-custom text-base leading-relaxed">
+          Call Mint includes a device-level firmware optimization tool that **reduces battery drain in low-signal environments** without compromising connectivity — addressing a common pain point in rural and semi-urban regions.
+        </p>
+      </div>
+
+      <div class="bg-gray-50-custom p-8 rounded-xl-custom shadow-lg-custom transition duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+        <h3 class="text-2xl font-bold mb-4 text-indigo-700-custom">Dual Calling Modes – Telecom + VoIP</h3>
+        <p class="text-gray-600-custom text-base leading-relaxed">
+          A single app supports both **normal telecom calling and internet-based VoIP voice/video calls, plus chat and messaging features** — giving users complete flexibility under one platform.
+        </p>
+      </div>
+
+      <div class="bg-gray-50-custom p-8 rounded-xl-custom shadow-lg-custom transition duration-300 ease-in-out hover:scale-[1.01] hover:shadow-2xl">
+        <h3 class="text-2xl font-bold mb-4 text-indigo-700-custom">Smart Chat Search and Instant Connect</h3>
+        <p class="text-gray-600-custom text-base leading-relaxed">
+          Users can search mobile numbers in the chat bar to check app presence and start messaging directly without saving contacts. If the recipient is not on the app, an invite can be sent instantly — encouraging organic growth.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-24 px-6 bg-gray-50-custom text-center" id="how-it-works">
+    <h2 class="text-4xl font-bold mb-16 text-gray-900-custom">How It Works — Simple & Seamless Steps</h2>
+    <div class="max-w-4xl mx-auto space-y-10 text-left">
+      <div class="flex flex-col md:flex-row items-start md:items-center gap-6 bg-white-custom p-8 rounded-xl shadow-lg-custom transition duration-300 ease-in-out hover:scale-[1.01]">
+        <div class="text-indigo-700-custom font-extrabold text-4xl flex-shrink-0 md:w-24 text-center">Step 1</div>
+        <div>
+          <h4 class="text-2xl font-bold mb-2 text-gray-900-custom">Download & Effortless Sign Up</h4>
+          <p class="text-gray-600-custom text-lg">Quickly create your account using your mobile number and OTP verification. Your personalized wallet is automatically set up and ready to go.</p>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row items-start md:items-center gap-6 bg-white-custom p-8 rounded-xl shadow-lg-custom transition duration-300 ease-in-out hover:scale-[1.01]">
+        <div class="text-indigo-700-custom font-extrabold text-4xl flex-shrink-0 md:w-24 text-center">Step 2</div>
+        <div>
+          <h4 class="text-2xl font-bold mb-2 text-gray-900-custom">Call or Chat: Your Way</h4>
+          <p class="text-gray-600-custom text-lg">Utilize either our high-quality VoIP or your normal telecom network for calls. Send instant messages directly via the intuitive in-app chat.</p>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row items-start md:items-center gap-6 bg-white-custom p-8 rounded-xl shadow-lg-custom transition duration-300 ease-in-out hover:scale-[1.01]">
+        <div class="text-indigo-700-custom font-extrabold text-4xl flex-shrink-0 md:w-24 text-center">Step 3</div>
+        <div>
+          <h4 class="text-2xl font-bold mb-2 text-gray-900-custom">Ad Jingles Transform Ringtones</h4>
+          <p class="text-gray-600-custom text-lg">Instead of standard ringing tones, you'll hear short, sponsored jingles during the call connection process – a new way to earn effortlessly.</p>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row items-start md:items-center gap-6 bg-white-custom p-8 rounded-xl shadow-lg-custom transition duration-300 ease-in-out hover:scale-[1.01]">
+        <div class="text-indigo-700-custom font-extrabold text-4xl flex-shrink-0 md:w-24 text-center">Step 4</div>
+        <div>
+          <h4 class="text-2xl font-bold mb-2 text-gray-900-custom">Earn Rewards with Every Use</h4>
+          <p class="text-gray-600-custom text-lg">Each valid call or message contributes to your earnings. Virtual coins are swiftly credited to your in-app wallet, visible in real-time.</p>
+        </div>
+      </div>
+      <div class="flex flex-col md:flex-row items-start md:items-center gap-6 bg-white-custom p-8 rounded-xl shadow-lg-custom transition duration-300 ease-in-out hover:scale-[1.01]">
+        <div class="text-indigo-700-custom font-extrabold text-4xl flex-shrink-0 md:w-24 text-center">Step 5</div>
+        <div>
+          <h4 class="text-2xl font-bold mb-2 text-gray-900-custom">Redeem for Instant Mobile Recharge</h4>
+          <p class="text-gray-600-custom text-lg">Conveniently redeem your accumulated coins to recharge any mobile number directly through the app, providing tangible savings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-white py-14 px-6">
+    <div class="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto">
+      <div>
+        <h4 class="text-xl font-bold mb-4">Call Mint</h4>
+        <ul class="space-y-3 text-sm text-gray-400">
+          <li>Revolutionizing mobile communication</li>
+          <li>Connecting 120 crore Indian users</li>
+          <li>Rewards with every interaction</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-xl font-bold mb-4">Quick Links</h4>
+        <ul class="space-y-3 text-sm text-gray-400">
+          <li><a href="#features" class="hover:text-white transition duration-200">Features</a></li>
+          <li><a href="#how-it-works" class="hover:text-white transition duration-200">How It Works</a></li>
+          <li><a href="#why" class="hover:text-white transition duration-200">Why Choose Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-xl font-bold mb-4">Legal & Support</h4>
+        <ul class="space-y-3 text-sm text-gray-400">
+          <li><a href="contact.html" class="hover:text-white transition duration-200">Contact Support</a></li>
+          <li><a href="#" class="hover:text-white transition duration-200">FAQs (Coming Soon)</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center mt-12 text-sm text-gray-500">
+      © <script>document.write(new Date().getFullYear())</script> Call Mint. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const featureSlider = document.getElementById('featureSlider');
+      const featuresScrollContainer = document.getElementById('featuresScroll');
+
+      if (!featureSlider || !featuresScrollContainer) return;
+
+      let currentSlide = 0;
+      const slides = featureSlider.children;
+      const totalSlides = slides.length;
+      let intervalId;
+
+      function showSlide(index) {
+        featureSlider.style.transform = `translateX(-${index * 100}%)`;
+      }
+
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        showSlide(currentSlide);
+      }
+
+      function startAutoScroll() {
+        stopAutoScroll();
+        intervalId = setInterval(nextSlide, 2000);
+      }
+
+      function stopAutoScroll() {
+        clearInterval(intervalId);
+      }
+
+      startAutoScroll();
+
+      featuresScrollContainer.addEventListener('mouseenter', stopAutoScroll);
+      featuresScrollContainer.addEventListener('mouseleave', startAutoScroll);
+    });
+  </script>
+</body>
+</html>
